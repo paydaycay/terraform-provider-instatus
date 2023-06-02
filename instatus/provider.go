@@ -42,7 +42,7 @@ func (p *instatusProvider) Schema(_ context.Context, _ provider.SchemaRequest, r
 		Attributes: map[string]schema.Attribute{
 			"api_key": schema.StringAttribute{
 				Description: "API Key for Instatus API. May also be provided via INSTATUS_APIKEY environment variable.",
-				Required:    true,
+				Optional:    true,
 				Sensitive:   true,
 			},
 		},
