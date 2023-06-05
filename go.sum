@@ -150,8 +150,8 @@ github.com/mitchellh/reflectwalk v1.0.2/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/oklog/run v1.1.0 h1:GEenZ1cK0+q0+wsJew9qUg/DyD8k3JzYsZAi5gYi2mA=
 github.com/oklog/run v1.1.0/go.mod h1:sVPdnTZT1zYwAJeCMu2Th4T21pA3FPOQRfWjQlk7DVU=
-github.com/paydaycay/instatus-client-go v0.1.0 h1:HPxFlF4ubNird5Dn305zpBO3Rh8Z903PhqjdEUWEstI=
-github.com/paydaycay/instatus-client-go v0.1.0/go.mod h1:P+mkMEXTlkrXqBu1wPhyJPC+ERt+Q74obF0ichqZNQU=
+github.com/paydaycay/instatus-client-go v0.1.1 h1:g6ajsXLq6b0OMh6gT40hEte4ySAHY7lcQEd7qsRntFE=
+github.com/paydaycay/instatus-client-go v0.1.1/go.mod h1:P+mkMEXTlkrXqBu1wPhyJPC+ERt+Q74obF0ichqZNQU=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
