@@ -163,6 +163,7 @@ func (r *componentResource) Create(ctx context.Context, req resource.CreateReque
 	// Map response body to schema and populate Computed attribute values
 	plan.ID = types.StringPointerValue(component.ID)
 	plan.UniqueEmail = types.StringPointerValue(component.UniqueEmail)
+	plan.Order = types.Int64PointerValue(component.Order)
 	plan.GroupID = types.StringPointerValue(component.GroupID)
 	plan.Group = types.StringPointerValue(component.Group.Name)
 	plan.LastUpdated = types.StringValue(time.Now().Format(time.RFC850))
@@ -249,6 +250,7 @@ func (r *componentResource) Update(ctx context.Context, req resource.UpdateReque
 	plan.ID = types.StringPointerValue(component.ID)
 	plan.GroupID = types.StringPointerValue(component.GroupID)
 	plan.Group = types.StringPointerValue(component.Group.Name)
+	plan.Order = types.Int64PointerValue(component.Order)
 	plan.UniqueEmail = types.StringPointerValue(component.UniqueEmail)
 	plan.LastUpdated = types.StringValue(time.Now().Format(time.RFC850))
 
