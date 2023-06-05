@@ -107,6 +107,7 @@ func (r *componentResource) Schema(_ context.Context, _ resource.SchemaRequest, 
 			"order": schema.Int64Attribute{
 				Description: "Order in the page of the component.",
 				Optional:    true,
+				Computed:    true,
 			},
 			"group_id": schema.StringAttribute{
 				Description: "String Identifier of the parent group of the component.",
